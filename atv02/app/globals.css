@@ -276,7 +276,7 @@ body {
   color: var(--accent);
   font-weight: bold;
   font-size: 1.1em;
-  margin-top: 20px;
+  margin-top: -60px;
 }
 
 /* Estrutura */
@@ -321,7 +321,7 @@ body {
   height: 50px;
   border-radius: 50%;
   border: 4px solid var(--accent);
-  right: 25px;
+  right: 15px;
   top: 40px;
   background-color: #fff;
 }
@@ -329,9 +329,9 @@ body {
 .body {
   position: absolute;
   width: 5px;
-  height: 80px;
+  height: 90px;
   background-color: var(--accent);
-  right: 47px;
+  right: 40px;
   top: 95px;
 }
 
@@ -347,33 +347,33 @@ body {
 /* Braços */
 .left-arm {
   width: 50px;
-  right: 47px;
-  top: 115px;
-  transform: rotate(30deg); /* menos torto */
+  right: 40px;
+  top: 120px;
+  transform: rotate(40deg); 
   transform-origin: top right;
 }
 
 .right-arm {
   width: 50px;
-  right: 10px;
-  top: 115px;
-  transform: rotate(-30deg); /* menos torto */
+  right: -5px;
+  top: 120px;
+  transform: rotate(-40deg); 
   transform-origin: top left;
 }
 
 /* Pernas */
 .left-leg {
   width: 60px;
-  right: 47px;
-  top: 170px;
-  transform: rotate(-25deg); /* menos torto */
+  right: 42px;
+  top: 175px;
+  transform: rotate(-50deg); 
   transform-origin: top right;
 }
 
 .right-leg {
   width: 60px;
-  right: 0px;
-  top: 170px;
-  transform: rotate(25deg); /* menos torto */
+  right: -18px;
+  top: 175px;
+  transform: rotate(50deg);
   transform-origin: top left;
 }
