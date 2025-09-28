@@ -145,8 +145,8 @@ const HangmanGame = () => {
 
             {/* Lista de Tentativas Anteriores */}
             <div className="guesses-list">
-              <p>Tentadas (Erradas): <span className="wrong-text">{wrongGuesses.join(', ')}</span></p>
-              <p>Tentadas (Corretas): <span className="correct-text">{correctGuesses.join(', ')}</span></p>
+              <p>Tentativas (Erradas): <span className="wrong-text">{wrongGuesses.join(', ')}</span></p>
+              <p>Tentativas (Corretas): <span className="correct-text">{correctGuesses.join(', ')}</span></p>
             </div>
           </div>
 
