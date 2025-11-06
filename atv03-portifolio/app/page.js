@@ -14,8 +14,8 @@ export default function Home() {
 
   useEffect(() => {
     if (catImage) {
-      const timeout = setTimeout(() => setFadeOut(true), 1000); 
-      const removeTimeout = setTimeout(() => setCatImage(null), 2000); 
+      const timeout = setTimeout(() => setFadeOut(true), 2500); 
+      const removeTimeout = setTimeout(() => setCatImage(null), 3000); 
       return () => {
         clearTimeout(timeout);
         clearTimeout(removeTimeout);
