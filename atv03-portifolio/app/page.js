@@ -31,13 +31,12 @@ export default function Home() {
         />
       )}
 
-      <button
-        onClick={fetchCat}
-        className="fixed bottom-8 bg-[#ffbbd8] text-[#8e0000] p-4 rounded-full shadow-lg hover:bg-[#8e0000] hover:text-[#ffbbd8] transition"
-        aria-label="Mostrar gatinho"
-      >
-        ★
-      </button>
+      <div className="fixed bottom-6 left-6">
+  <button className="text-pink-400 text-6xl bg-transparent hover:scale-110 transition-transform duration-300">
+    ★
+  </button>
+</div>
+
     </div>
   );
 }
