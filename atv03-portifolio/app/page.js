@@ -13,8 +13,8 @@ export default function Home() {
   };
   useEffect(() => {
     if (catImage) {
-      const timeout = setTimeout(() => setFadeOut(true), 1000); // 1s antes de desaparecer
-      const removeTimeout = setTimeout(() => setCatImage(null), 2000); // remove da tela
+      const timeout = setTimeout(() => setFadeOut(true), 2000);
+      const removeTimeout = setTimeout(() => setCatImage(null), 2000);
       return () => {
         clearTimeout(timeout);
         clearTimeout(removeTimeout);
