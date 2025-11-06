@@ -17,6 +17,12 @@ export default function Home() {
       </h1>
       <p className="text-[#ffbbd8] text-lg mb-12">@dev</p>
 
+    <img
+        src="https://i.ibb.co/7xCSSRKS/mellyzinha.png"
+        className="w-64 h-64 md:w-80 md:h-80 object-cover"
+      />
+
+
       {catImage && (
         <img
           src={catImage}
