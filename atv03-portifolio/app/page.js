@@ -31,12 +31,15 @@ export default function Home() {
         />
       )}
 
-      <div className="fixed bottom-6 left-6">
-  <button className="text-pink-400 text-6xl bg-transparent hover:scale-110 transition-transform duration-300">
-    ★
-  </button>
-</div>
-
+      <div className="fixed bottom-6 right-6">
+        <button
+          onClick={fetchCat}
+          className="text-[#ffbbd8] text-6xl bg-transparent hover:scale-110 transition-transform duration-300"
+          title="Clique para ver um gatinho!"
+        >
+          ★
+        </button>
+      </div>
     </div>
   );
 }
