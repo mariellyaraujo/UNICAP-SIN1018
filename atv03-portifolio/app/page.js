@@ -11,10 +11,11 @@ export default function Home() {
     setCatImage(data[0].url);
     setFadeOut(false); 
   };
+
   useEffect(() => {
     if (catImage) {
-      const timeout = setTimeout(() => setFadeOut(true), 2000);
-      const removeTimeout = setTimeout(() => setCatImage(null), 3000);
+      const timeout = setTimeout(() => setFadeOut(true), 1000); 
+      const removeTimeout = setTimeout(() => setCatImage(null), 2000); 
       return () => {
         clearTimeout(timeout);
         clearTimeout(removeTimeout);
@@ -35,13 +36,19 @@ export default function Home() {
       />
 
       {catImage && (
-        <img
-          src={catImage}
-          alt="Gatinho fofo"
-          className={`w-64 h-64 object-cover rounded-full mb-8 border-2 border-[#ffbbd8] shadow-lg transition-opacity duration-1000 ${
+        <div
+          className={`fixed inset-0 flex items-center justify-center bg-black/60 transition-opacity duration-1000 ${
             fadeOut ? "opacity-0" : "opacity-100"
           }`}
-        />
+        >
+          <div className="bg-[#1a1a1a] p-4 rounded-3xl shadow-lg border-2 border-[#ffbbd8]">
+            <img
+              src={catImage}
+              alt="Gatinho fofo"
+              className="w-64 h-64 object-cover rounded-full"
+            />
+          </div>
+        </div>
       )}
 
       <div className="fixed bottom-6 right-6">
