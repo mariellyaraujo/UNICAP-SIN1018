@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
     <html lang="pt-BR">
       <head>
         <link
-          href="https://fonts.cdnfonts.com/css/horizon"
+          href="https://fonts.googleapis.com/css2?family=Tiny5&display=swap"
           rel="stylesheet"
         />
       </head>
