@@ -15,20 +15,20 @@ export default function Sobre() {
         </h1>
         <p className="text-[#ffbbd8] leading-relaxed text-lg">
           Este portfólio foi desenvolvido com foco em um design minimalista e
-          elegante, utilizando as tecnologias{" "}
-          <span className="text-[#8e0000] font-semibold">React</span> e{" "}
-          <span className="text-[#8e0000] font-semibold">Next.js</span>.
+          grunge, utilizando as tecnologias{" "}
+          <span className="text-[#ffffff] font-semibold">React</span> e{" "}
+          <span className="text-[#ffffff] font-semibold">Next.js</span>.
           <br />
           A estilização foi feita com{" "}
-          <span className="text-[#8e0000] font-semibold">Tailwind CSS</span>,
+          <span className="text-[#ffffff] font-semibold">Tailwind CSS</span>,
           garantindo responsividade e agilidade no desenvolvimento.
           <br />
           Além disso, há integração com uma API pública, utilizando{" "}
-          <span className="text-[#8e0000] font-semibold">TheCatAPI</span> para
+          <span className="text-[#ffffff] font-semibold">TheCatAPI</span> para
           exibir imagens aleatórias de gatos 🐱.
           <br />
           A hospedagem é feita na{" "}
-          <span className="text-[#8e0000] font-semibold">Vercel</span> e o
+          <span className="text-[#ffffff] font-semibold">Vercel</span> e o
           código está disponível no GitHub.
         </p>
       </div>
