@@ -12,7 +12,7 @@ export default function ExperienciaProfissional() {
             Experiência Profissional
           </h1>
           <p className="text-lg text-[#ffbbd8] leading-relaxed">
-            💼 Estagiária{" "}
+             Estagiária{" "}
             <span className="text-white font-semibold">
               Analista Desenvolvedora Salesforce
             </span>{" "}
